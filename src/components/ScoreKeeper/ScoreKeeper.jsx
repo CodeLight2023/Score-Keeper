@@ -34,6 +34,7 @@ function ScoreKeeper() {
                 <div className="reset-btn-box">
                     <button className="reset" onClick={() => setScore1(0)}>Reset Player 1</button>
                     <button className="reset" onClick={() => setScore2(0)}>Reset Player 2</button>
+                    <button style={{width: '100%', height: 'auto', background: '#0394fc', padding: '15px', color: '#fff', borderRadius: '50px', margin: '20px auto' }} onClick={() => {setScore1(0), setScore2(0)}}>Reset Both</button>
                 </div>
             </div>
         </div>
